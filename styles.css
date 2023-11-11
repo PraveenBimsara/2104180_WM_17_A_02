@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.h-1{
+    color: coral;
+}
+
+
+.dice-div {
+    margin-left: 700px;
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+
+#roll-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#roll-button:hover{
+    background-color: blue;
+    color: white;
+}
